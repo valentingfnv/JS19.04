@@ -1,0 +1,310 @@
+* {
+  margin: 0 auto;
+  text-align: center;
+  font-size: 18px;
+}
+
+body {
+  height: 3000px;
+  background-color: #232f34;
+}
+
+/* task1======================================================= */
+
+.task1 {
+  width: 600px;
+  height: 250px;
+  margin-top: 50px;
+  background: #344955;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  color: #f9aa33;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#validateAZ {
+  width: 60%;
+  margin-top: 10px;
+  border-radius: 2px;
+  border: 1px solid #f9aa33;
+  background: #344955;
+  color: #f9aa33;
+  outline: none;
+}
+
+#validateAZ:hover {
+  background: #232f34;
+}
+
+/* task2======================================================= */
+
+.task2 {
+  width: 600px;
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+
+  background: #344955;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#openModal {
+  margin: 80px 0;
+  padding: 10px 20px;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f9aa33;
+  border: 1px solid #f9aa33;
+  outline: none;
+}
+#openModal:hover {
+  background: #232f34;
+  cursor: pointer;
+}
+
+#openModal:active {
+  transform: translateY(1px);
+}
+
+.modal {
+  width: 100%;
+  height: 100%;
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  overflow: auto;
+  background-color: #232f34;
+  opacity: 0.9;
+}
+
+.modal-content {
+  width: 300px;
+  background: #fff;
+  margin: 15% auto;
+  border-radius: 10px;
+  color: #344955;
+}
+
+.task2 p {
+  padding-top: 20px;
+}
+
+#closeModal {
+  margin: 10px 0;
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #344955;
+  border: 1px solid #344955;
+}
+
+#closeModal:active {
+  transform: translateY(1px);
+}
+
+/* task3======================================================= */
+
+.task3 {
+  margin-top: 50px;
+}
+
+#field {
+  width: 600px;
+  height: 404px;
+  background-image: url(поле.jpg);
+  background-size: cover;
+  position: relative;
+
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+#ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: all 1s;
+}
+
+/* task4======================================================= */
+
+.task4 {
+  width: 600px;
+  height: 250px;
+  background: #344955;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.trafficlLight {
+  width: 400px;
+  height: 100px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+.light {
+  width: 80px;
+  height: 80px;
+  background-color: #344955;
+  border-radius: 50%;
+  border: 1px solid black;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.25);
+}
+
+#btn {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+  border: 1px solid #f9aa33;
+  color: #f9aa33;
+  outline: none;
+}
+
+#btn:hover {
+  background: #232f34;
+  cursor: pointer;
+}
+
+#btn:active {
+  transform: translateY(1px);
+}
+
+/* task5======================================================= */
+
+.task5 {
+  width: 600px;
+  height: 250px;
+  background: #344955;
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  color: #f9aa33;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.task5 li {
+  text-align: left;
+}
+.active {
+  background: #232f34;
+}
+
+/* task6======================================================= */
+
+.task6 {
+  width: 600px;
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  background: #344955;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.task6 button {
+  padding: 10px 20px;
+  border-radius: 4px;
+  background-color: rgba(0, 0, 0, 0);
+  color: #f9aa33;
+  border: 1px solid #f9aa33;
+  outline: none;
+}
+
+.task6 button:hover {
+  background: #232f34;
+  cursor: pointer;
+}
+
+.task6 button:active {
+  transform: translateY(1px);
+}
+.tooltip {
+  position: fixed;
+  padding: 10px 20px;
+  border-radius: 4px;
+  text-align: center;
+  font: italic 14px/1.3 sans-serif;
+  color: white;
+  background: #f9aa33;
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+
+/* task7======================================================= */
+
+.task7 {
+  width: 600px;
+  height: 250px;
+  background: #344955;
+  color: #f9aa33;
+  margin-top: 50px;
+  border-radius: 5px;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  cursor: pointer;
+}
+
+.tree {
+  padding-top: 20px;
+}
+
+.task7 li {
+  text-align: left;
+}
+
+.task7 span:hover {
+  font-weight: bold;
+}
+
+/* task8======================================================= */
+
+.task8 {
+  width: 600px;
+  height: 250px;
+  margin-top: 50px;
+  border-radius: 5px;
+  background: #344955;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.textarea {
+  width: 400px;
+  display: block;
+  top: 10px;
+  position: relative;
+  background: #232f34;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.resize {
+  display: block;
+  position: absolute;
+  right: 2px;
+  bottom: 2px;
+  z-index: 1;
+  width: 10px;
+  height: 10px;
+  filter: drop-shadow(0 0 5px #000);
+  background: linear-gradient(to right bottom, transparent 50%, #f9aa33 50%);
+  cursor: nwse-resize;
+}
+
+.task8 p {
+  text-align: left;
+  padding: 20px;
+  color: #f9aa33;
+}
